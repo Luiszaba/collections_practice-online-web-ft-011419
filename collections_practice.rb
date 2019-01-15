@@ -46,8 +46,8 @@ end
 
 def add_s(array)
   array.collect do |cat|
-    if array[1] == cats
-      cats
+    if array[1] == cat
+      cat
     else
       cat + "s"
     end
