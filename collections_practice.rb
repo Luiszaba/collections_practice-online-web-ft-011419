@@ -44,7 +44,15 @@ def sum_array(array)
   end
 end
 
-def 
+def add_s(array)
+  array.collect do |words|
+    if array[1] == words
+      words
+    else
+      words+"$"
+    end
+  end
+end
 
 
 
