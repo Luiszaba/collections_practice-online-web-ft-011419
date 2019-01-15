@@ -26,6 +26,12 @@ def reverse_array(array)
   array.reverse
 end
 
+def kesha_maker(array)
+  array.each do |dolla_signer|
+    dolla_signer[2] << "$"
+    dolla_signer
+  end
+end
 
 
 
